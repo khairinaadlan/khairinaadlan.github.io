@@ -7,7 +7,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "@react-three/drei": "9.5.4",
-    "@react-three/fiber": "8.0.12",
+    "@react-three/fiber": "8.0.12", 
     "@splinetool/loader": "0.9.35",
     "@splinetool/r3f-spline": "1.0.1",
     "modern-normalize": "1.1.0",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build; serve -s build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -30,16 +30,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khairinaadlan/khairinaadlan.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/khairinaadlan/khairinaadlan.github.io/issues"
-  },
-  "homepage": "https://github.com/khairinaadlan/khairinaadlan.github.io#readme",
-  "description": ""
+  ]
+  
 }
