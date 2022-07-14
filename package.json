@@ -1,4 +1,5 @@
 {
+  "homepage": "https://khairinaadlan.github.io",
   "name": "demo-portfolio",
   "version": "1.0.0",
   "keywords": [],
@@ -20,6 +21,8 @@
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build; serve -s build",
     "test": "react-scripts test --env=jsdom",
