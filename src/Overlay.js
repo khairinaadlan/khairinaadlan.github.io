@@ -84,7 +84,7 @@ export function Overlay({ scroll }) {
             </section>
             <section style={{ height: "100vh" }} className={styles.sectionLeft}>
                 <p>
-                    My name is Kharina,
+                    My name is Khairina,
                     <br />
                     a Japan undergraduate
                     <br />
